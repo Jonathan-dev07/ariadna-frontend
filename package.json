@@ -1,0 +1,28 @@
+{
+  "name": "si-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ariadna · Asistente de Software Intelligence (Next.js + React + Tailwind CSS) para si-backend.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node server.js",
+    "serve": "next build && node server.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-markdown": "10.1.0",
+    "remark-gfm": "4.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "22.15.0",
+    "@types/react": "19.2.0",
+    "@types/react-dom": "19.2.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
+  }
+}
